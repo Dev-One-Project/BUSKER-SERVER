@@ -20,6 +20,7 @@ services:
     environment:
       MYSQL_DATABASE: 'busker'
       MYSQL_ROOT_PASSWORD: 'root!'
+      MYSQL_ROOT_PASSWORD: 'root'
     ports:
       - 3306:3306
 
